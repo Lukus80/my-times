@@ -33,13 +33,9 @@ a {
 
 nav {
   display: inline-block;
+  margin-right: 30px
 }
 
 nav span {
   padding-left: 12px;
-}
-
-.nav {
-  display: inline-block;
-  margin-right: 30px
 }
