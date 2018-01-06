@@ -5,7 +5,10 @@ header {
  display: flex;
  align-items: center;
  border-bottom: 1px solid black;
- margin-right: 12px;
+ padding-bottom: 10px;
+ justify-content: space-between;
+ position: fixed;
+ width: 98%
 }
 
 a {
@@ -13,15 +16,11 @@ a {
   border-color: black;
 }
 
-.logo span {
+.logo {
   color: MediumAquamarine;
-  align-items: center;
-
+  margin-left: 12px;
 }
 
-.nav {
-  text-align: right;
-  align-content: right;
-  display: inline-flex;
-  position
+.nav span{
+  display: inline-block;
 }
