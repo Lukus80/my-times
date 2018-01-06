@@ -19,6 +19,10 @@ a {
   border-color: black;
 }
 
+div {
+  border: 1px solid black;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -38,4 +42,40 @@ nav {
 
 nav span {
   padding-left: 12px;
+}
+
+.main-container {
+  display: flex;
+  height: 600px;
+  position: relative;
+  top: 80px;
+  margin: 0 auto;
+
+}
+
+.column {
+  flex-direction: column;
+  display: flex;
+  margin: 30px;
+}
+
+.column.large {
+  width: 630px;
+  flex-grow: 1;
+}
+
+.column.medium {
+  width: 300px;
+  flex-grow: 2;
+}
+
+.column.small {
+  width: 240px;
+  flex-grow: 2;
+}
+
+.hero-1 {
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  height: 300px;
+  width: 100%;
 }
