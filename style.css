@@ -27,6 +27,18 @@ a {
   border-color: black;
 }
 
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
 div {
   /*border: 1px solid black;*/
 }
@@ -128,3 +140,51 @@ nav span {
     height: 300px;
     width: 100%;
   }
+
+/* News Bites */
+
+.news-bites-list {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding:15px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li{
+  list-style: none;
+  border-bottom: 1px solid black;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  background-color: MediumAquamarine;
+  height: 325px;
+  margin: 0px auto;
+  font-family: Verdana;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 0px;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 5px 30px 5px 0px;
+  border-right: 3px solid white;
+  margin-right: 30px;
+}
+
+.copyright {
+  display: block;
+}
