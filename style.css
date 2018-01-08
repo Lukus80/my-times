@@ -164,15 +164,25 @@ li{
 
 footer {
   display: flex;
+  flex-direction: column;
   background-color: MediumAquamarine;
   height: 325px;
-  margin: 0px auto;
   font-family: Verdana;
   font-size: 12px;
   align-items: center;
   justify-content: center;
-  position: relative;
-  bottom: 0px;
+  align-content: center;
+
+}
+
+.info {
+  display: block;
+  margin: 15px 0px;
+  justify-content: center;
+  align-items: center;
+}
+.info nav {
+  margin-right: 0px;
 }
 
 .title {
@@ -183,8 +193,10 @@ footer {
   padding: 5px 30px 5px 0px;
   border-right: 3px solid white;
   margin-right: 30px;
+  display: inline-block;
 }
 
 .copyright {
   display: block;
+  text-align: center;
 }
