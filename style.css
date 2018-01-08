@@ -28,6 +28,7 @@ a {
 }
 
 div {
+  /*border: 1px solid black;*/
 }
 
 .logo {
@@ -64,7 +65,6 @@ nav span {
 .column {
   flex-direction: column;
   display: flex;
-  align-content: flex-start;
   margin: 25px 25px 0px 0px;
 
 }
@@ -83,12 +83,17 @@ nav span {
 
 /* stories */
 
-.story {
+
+.stories {
+  width: 630px;
   display: flex;
+  justify-content: space-between;
 }
 
-.lead-story {
-
+.story {
+  display: flex;
+  flex-flow: column wrap;
+  width: 300px;
 }
 
 .image-content {
@@ -97,7 +102,6 @@ nav span {
   font-size: 30px;
   text-align: center;
   display: flex;
-  justify-content: center;
 }
 
 .image-content.img-story-main {
@@ -110,20 +114,13 @@ nav span {
 .image-content.earth-backwards {
   background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
   height: 300px;
-  width: 100%;
-  display: block;
-
 
 }
 
 .image-content.memory-erase {
   background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
   height: 300px;
-  width: 100%;
   text-align: center;
-  display: block;
-
-
 }
 
 .image-content.cat-ceo {
